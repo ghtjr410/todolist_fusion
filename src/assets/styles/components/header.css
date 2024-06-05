@@ -1,0 +1,22 @@
+.header{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+.header__right{
+    display: flex;
+    flex-direction: column;
+}
+.hidden{
+    display: none;
+}

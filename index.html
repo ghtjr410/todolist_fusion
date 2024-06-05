@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/assets/styles/base/reset.css">
+    <link rel="stylesheet" href="src/assets/styles/components/header.css">
+    <link rel="stylesheet" href="src/assets/styles/components/main.css">
+    <link rel="stylesheet" href="src/assets/styles/components/footer.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script type="module" src="dist/index.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <i class="fa-regular fa-sun red"></i>
+      <!-- <i class="fa-solid fa-cloud"></i>
+      <i class="fa-solid fa-cloud-showers-heavy"></i>
+      <i class="fa-regular fa-snowflake"></i> -->
+      <div class="header__right">
+        <p id="currentTemperature"class="TemperatureInfo"></p>
+        <p id="currentLocation" class="locationInfo"></p>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div id="clock"></div>
+      <div id="namePrompt">Please write your name</div>
+
+      <div class="inputNameBox" id="inputNameBox">
+        <input class="nameInput" id="nameInput" type="text" name="" id="" maxlength="15">
+      </div>
+
+      <div class="inputTaskBox hidden" id="inputTaskBox">
+        <input class="taskInput" type="text" name="" id="taskInput" placeholder="Please enter your task">
+      </div>
+
+      <div class="taskBox" id="taskBox">
+        
+      </div>
+    </main>
+    
+
+    
+    
+  </body>
+</html>
+
+<!--  -->
